@@ -1,0 +1,4 @@
+services:
+  plugin.manager.email_formatter:
+    class: Drupal\email_formatter\EmailFormatter\PluginManager
+    parent: default_plugin_manager
